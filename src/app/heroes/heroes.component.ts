@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Hero } from '../hero';
 import { HEROES } from '../mock-heroes';
 
@@ -7,10 +7,7 @@ import { HEROES } from '../mock-heroes';
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css'],
 })
-export class HeroesComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
+export class HeroesComponent {
 
   hero: Hero = {
     id: 1,
